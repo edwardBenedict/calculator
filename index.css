@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
   border-radius: 20px;
-  background-color: aquamarine;
 }
 
 body {
@@ -12,6 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url(./img/background.jpg);
 }
 .calculator {
   flex: 0 0 95%;
