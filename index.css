@@ -20,9 +20,10 @@ body {
   width: 100%;
   font-size: 7rem;
   padding: 0.5rem;
-  background: rgba(128, 139, 150, 0.8);
-  color: white;
+  background: rgba(98, 109, 120, 0.9);
+  color: wheat;
   border: none;
+  text-align: center;
 }
 
 .buttons {
