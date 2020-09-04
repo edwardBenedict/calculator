@@ -20,7 +20,7 @@ body {
   width: 100%;
   font-size: 7rem;
   padding: 0.5rem;
-  background: rgb(128, 139, 150);
+  background: rgba(128, 139, 150, 0.8);
   color: white;
   border: none;
 }
@@ -38,23 +38,23 @@ button {
   transition: all 2s ease;
 }
 button:hover {
-  background: rgb(40, 116, 166);
+  background: rgba(40, 116, 166, 0.8);
 }
-.btn-yellow {
-  background: rgb(126, 176, 186);
+.btn-lightblue {
+  background: rgba(126, 176, 186, 0.8);
   color: white;
 }
 .btn-grey {
-  background: rgb(224, 224, 224);
+  background: rgba(224, 224, 224, 0.8);
 }
 .btn,
 .btn-equal,
 .btn-clear {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .btn-equal {
-  background: wheat;
+  background: rgba(245, 222, 179, 0.8);
 }
 .btn-clear {
-  background: lightcoral;
+  background: rgba(240, 128, 128, 0.8);
 }
