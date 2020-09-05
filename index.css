@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Courier New", Courier, monospace;
   border-radius: 20px;
+  font-size: large;
 }
 
 body {
@@ -20,10 +21,22 @@ body {
   width: 100%;
   font-size: 7rem;
   padding: 0.5rem;
+  padding-left: 5rem;
   background: rgba(98, 109, 120, 0.9);
   color: wheat;
   border: none;
   text-align: center;
+}
+#top {
+  position: relative;
+}
+img {
+  display: block;
+  margin-top: 2rem;
+  margin-left: 3%;
+  position: absolute;
+  height: 50%;
+  z-index: 1;
 }
 
 .buttons {
@@ -58,4 +71,13 @@ button:hover {
 }
 .btn-clear {
   background: rgba(240, 128, 128, 0.8);
+}
+
+#motto {
+  background-color: wheat;
+  font-size: 2rem;
+  flex: 0 0 75%;
+  border: 3px solid purple;
+  text-align: center;
+  padding-top: 1.2%;
 }
